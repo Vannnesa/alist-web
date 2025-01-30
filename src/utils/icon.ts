@@ -13,7 +13,7 @@ import {
   BsFileEarmarkZipFill,
   BsMarkdownFill,
   BsFiletypeYml,
-  BsFiletypeXml
+  BsFiletypeXml,
 } from "solid-icons/bs"
 import {
   FaSolidDatabase,
