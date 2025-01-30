@@ -147,12 +147,12 @@ const Profile = () => {
               <AlertIcon mr="$2_5" />
 
               <AlertTitle mr="$2_5">{t("users.guest-tips")}</AlertTitle>
-	      <Text>{t("不是…您来此地有何贵干捏?")}</Text>
+              <Text>{t("不是…您来此地有何贵干捏?")}</Text>
               <AlertDescription>{t("users.modify_nothing")}</AlertDescription>
             </Alert>
             <HStack spacing="$2">
-	      {/* <Text>{t("global.have_account")}</Text> */}
-	      {/* <Text>{t("洗洗睡吧不公开")}</Text> */}
+              {/* <Text>{t("global.have_account")}</Text> */}
+              {/* <Text>{t("洗洗睡吧不公开")}</Text> */}
               {/* <Text
                 color="$info9"
                 as={LinkWithBase}
@@ -162,7 +162,11 @@ const Profile = () => {
               >
                 {t("global.go_login")}
               </Text> */}
-	      <img src="https://imgse.com/i/pEVfvy4" width="50%" height ="50%"></img>
+              <img
+                src="https://imgse.com/i/pEVfvy4"
+                width="50%"
+                height="50%"
+              ></img>
             </HStack>
           </>
         }
