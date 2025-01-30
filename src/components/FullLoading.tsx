@@ -7,9 +7,9 @@ export const FullScreenLoading = () => {
       <Spinner
         thickness="4px"
         speed="0.65s"
-	emptyColor="tomato"
+        emptyColor="tomato"
         //emptyColor="$neutral4"
-	//此处修
+        //此处修
         color={getMainColor()}
         size="xl"
       />
@@ -36,9 +36,9 @@ export const FullLoading = (props: {
       <Spinner
         thickness={`${merged.thickness}px`}
         speed="0.65s"
-	emptyColor="tomato"
+        emptyColor="tomato"
         //emptyColor="$neutral4"
-	//此处修改第二处
+        //此处修改第二处
         color={getMainColor()}
         size={merged.size as any}
       />
