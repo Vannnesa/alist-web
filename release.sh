@@ -6,10 +6,7 @@ cat package.json
 
 # build
 pnpm install
-wget https://crowdin.com/backend/download/project/alist
-unzip "alist (translations).zip"
 node ./scripts/i18n.mjs
-rm "alist (translations).zip"
 pnpm build
 cp -r dist ../
 cd ..

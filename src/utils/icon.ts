@@ -12,6 +12,8 @@ import {
   BsWindows,
   BsFileEarmarkZipFill,
   BsMarkdownFill,
+  BsFiletypeYml,
+  BsFiletypeXml
 } from "solid-icons/bs"
 import {
   FaSolidDatabase,
